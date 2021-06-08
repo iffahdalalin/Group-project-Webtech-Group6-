@@ -22,11 +22,24 @@ The last page, Contact Us, will display a feedback form in which users will have
 
 ### GROUP CONTRIBUTIONS
 
-| NAME      | CONTRIBUTIONS |
-| ----------- | ----------- |
-| 'Iffah Dalalin binti Mohd Helme (1916304)| -Pages: Home page, MyCart, ReadyStockMenu and service. -Web elements: Search and cart icons, Google Maps embed. -Added picture in each of every pages|
-| Paragraph   | Text        |
+Two of the team members prepared 4 web pages for the html codes and other two members prepared 4 web pages for the css codes.While the javascript and jquery are responsible for all of the team members, only one person manages to do that.
 
+#### **'Iffah Dalalin binti Mohd Helme (1916304)**
+- Pages: Home page, MyCart, ReadyStockMenu and service 
+- Web elements: Search and cart icons, Google Maps embed.
+- Added picture in each of every pages 
+
+#### **Nisa Habiba (1918172)**
+- CSS : Homepage, Service Page, Ready-to-order page, and Custom Cookies page
+- JavaScript (image slide header) and jQuery (form validation and toggle function)
+
+#### **Hafizh Rafi Taufiqul (1927529)**
+- CSS : Special Package, Add-ons Page, My-Cart Page, and Contact-us page
+- 
+#### **Ajwa Raudha binti Shamsool (1915460)**
+- Pages: Custom Cookies, Special Packages, Add-ons and Contact Us
+- Web elements: Search and cart icons, Google Maps embed, social media icons
+- Added pictures of some of the products
 
 ### USE OF THIRD PARTY RESOURCES
 ### REFERENCES
