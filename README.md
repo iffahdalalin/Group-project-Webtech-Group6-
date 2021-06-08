@@ -19,6 +19,9 @@ The last page, Contact Us, will display a feedback form in which users will have
 ### PROJECT SITEMAP
 
 ![alt text](https://github.com/iffahdalalin/Group-project-Webtech-Group6-/blob/main/sitemap.png?raw=true)
+
 ### GROUP CONTRIBUTIONS
+
+
 ### USE OF THIRD PARTY RESOURCES
 ### REFERENCES
