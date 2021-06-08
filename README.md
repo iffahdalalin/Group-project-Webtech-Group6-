@@ -16,9 +16,11 @@ The next part after the homepage is the Service Navigation page. It will be the 
 
 The last page, Contact Us, will display a feedback form in which users will have to fill in their details to submit their messages. The store’s contact details, a Google Maps embed of the store location and social media links will also be displayed on the page.
 
+
 ### PROJECT SITEMAP
 
 ![alt text](https://github.com/iffahdalalin/Group-project-Webtech-Group6-/blob/main/sitemap.png?raw=true)
+
 
 ### GROUP CONTRIBUTIONS
 
@@ -43,9 +45,9 @@ Two of the team members prepared 4 web pages for the html codes and other two me
 
 ### USE OF THIRD PARTY RESOURCES
 
-| Syntax      | Description | Test Text     | Test Text     |
-| :---        |    :---   |            ---: |          ---: |
-| Header      | Title       | Here's this   |               |
-| Paragraph   | Text        | And more      |               |
+| Web elements      | Name      | Use of third party resources and modifications (if any)    | Modifications (if any)     |
+| :---              |    :---   |                                                       ---: |                       ---: |
+| Header            | Title     | Here's this                                                |                            |
+| Paragraph         | Text      | And more                                                   |                            |
 
 ### REFERENCES
