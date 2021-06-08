@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo.png">
+    <title>Ready Stock Menu</title>
+    <link rel="stylesheet" href="style-readyStockMenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!--NAVBAR STARTS-->
+    <div class="navbar">
+      <ul>
+      <li><a href="Homepage.html" class=home>Home</a><span></li>
+      <li><a href="Service.html" class = service>Service</a><span></li>
+      <li><a href="myCart.html" class = cart>My Cart</a><span></li>
+      <li><a href="contactUs.html" class = contact>Contact Us</a></li>
+      <li><div class="searchBar"> <input type="text" placeholder="Search for the menu"> </div></li>
+      <li><button type="submit" class="searchButton"><i class="fa fa-search"></i></button></li>
+      </ul>
+     </div>
+    <!--NAVBAR ENDS-->
+
+    <!--PICTURE HEADER-->
+    <div class="Header">
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+
+        <img src="img/head1.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/head2.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/head3.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+    <!--PICTURE HEADER-->
+
+    <div class="menudesc">
+      <h2>Ready Stock Menu</h2>
+      <p>Order your favourite cookies from our store. Various choices
+      with diverse flavour, topping, and icing. Ready to be delivered
+      to your house according to the date of booking. Choose your favourite one!</p>
+    </div>
+
+    <div class="image-part">
+      <img class="img" src="img/Cust1.jpg" alt="image">
+      <img class="img" src="img/Cust2.jpg" alt="image">
+      <img class="img" src="img/Cust3.jpg" alt="image"><br>
+    </div>
+
+        <h3 class="title-custom">Best Seller of The Month</h3>
+
+        <div class="best-seller">
+          <div class="best1">
+            <img class="img1" src="img/menu2.jpg" alt="image">
+            <h2 class="product">Butter Cookies</h2>
+            <h3 class="price">RM 5.00</h3>
+            <p id="desc">Cookies with best quality butter</p>
+            <button class="button" name="button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+
+          <div class="best2">
+            <img class="img1" src="img/pic3.jpg" alt="image">
+            <h2 class="product">Chocolate Chip</h2>
+            <h3 class="price">RM 5.00</h3>
+            <p id="desc">Sweet chocolate chip with crackers</p>
+            <button class="button" name="button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+
+          <div class="best3">
+            <img class="img1" src="img/Cust2.jpg" alt="image">
+            <h2 class="product">Sugar Icing</h2>
+            <h3 class="price">RM 5.00</h3>
+            <p id="desc">Cookies with sweet sugar icing</p>
+            <button class="button" name="button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+
+          <div class="best4">
+            <img class="img1" src="img/pic4.jpg" alt="image">
+            <h2 class="product">Oatmeals</h2>
+            <h3 class="price">RM 5.00</h3>
+            <p id="desc">Oatmeals ingredients with milky base cookies</p>
+            <button class="button" name="button"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+
+          <div class="slot-order">
+            <h3>Choose order slot :</h3>
+            <input class="slot-date" type="date">
+            <button class="slot-button" type="submit" class="searchButton">
+              <b>Book</b>
+            </button>
+          </div>
+
+        <div class="row">
+
+          <div class="column1">
+              <div class="Categories">
+              <h2>Categories</h2>
+              <div class="choice">
+                <input type="radio" id="Butter" name="categories" value="Butter">
+                <label for="butter">Butter</label><br>
+                <input type="radio" id="Chocolate" name="categories" value="Chocolate">
+                <label for="chocolate">Chocolate</label><br>
+                <input type="radio" id="Oatmeals" name="categories" value="Oatmeals">
+                <label for="oatmeals">Oatmeals</label><br>
+                <button class="choice-button" type="submit" name="button">Ready</button>
+                <button class="choice-button" type="submit" name="button">Pre Order</button>
+                <button class="choice-button" type="submit" name="button">Booking</button><br>
+              </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15933.625077738832!2d101.6793833111581!3d3.248760762155526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc476a6f144fa9%3A0xf157e394fe0888c9!2sKhaliff%20bakery!5e0!3m2!1sen!2smy!4v1622290204030!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <h2>Our Location</h2>
+              <p class="location">No 5, Kedai hadapan Annur Masjid, Jalan Zambrut, Kampung Melayu Wira Damai, 68100 Batu Caves, Selangor</p>
+              </div>
+          </div>
+
+          <div class="column2">
+            <div class="container">
+                <div class="options">
+                  <img class="options-img" src="img/menu2.jpg" alt="image"><br>
+                  <h6 class="product">Butter Cookies</h6>
+                  <p id="desc">Cookies with best quality butter</p>
+                  <p class="price">RM 5.00</p>
+                  <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+                  <button type="submit" style="font-size:24px">
+                  <i class="fa fa-shopping-cart"></i>
+                  </button><span>
+
+                </div>
+
+                <div class="options">
+                    <img class="options-img" src="img/pic3.jpg" alt="image"><br>
+                    <h6 class="product">Chocolate Chip</h6>
+                    <p id="desc">Sweet chocolate chip with crackers</p>
+                    <p class="price">RM 5.00</p>
+                    <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+                    <button type="submit" style="font-size:24px">
+                    <i class="fa fa-shopping-cart"></i>
+                    </button><span>
+                  </div>
+
+                  <div class="options">
+                    <img  class="options-img" src="img/Cust2.jpg" alt="image"><br>
+                    <h6 class="product">Sugar Icing</h6>
+                    <p id="desc">Cookies with sweet sugar icing</p>
+                    <p class="price">RM 5.00</p>
+                    <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+                    <button type="submit" style="font-size:24px">
+                    <i class="fa fa-shopping-cart"></i>
+                    </button><span>
+                    </div>
+
+                    <div class="options">
+                    <img  class="options-img" src="img/pic4.jpg" alt="image"><br>
+                    <h6 class="product">Oatmeals</h6>
+                    <p id="desc">Oatmeals ingredients with milky base</p>
+                    <p class="price">RM 5.00</p>
+                    <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+                    <button type="submit" style="font-size:24px">
+                    <i class="fa fa-shopping-cart"></i>
+                    </button><span>
+                    </div>
+
+                    <div class="options">
+                    <img  class="options-img" src="img/menu1.jpg" alt="image"><br>
+                    <h6 class="product">Macadamia</h6>
+                    <p id="desc">Creamy cookies with macadamia</p>
+                    <p class="price">RM 5.00</p>
+                    <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+                    <button type="submit" style="font-size:24px">
+                    <i class="fa fa-shopping-cart"></i>
+                    </button><span>
+                    </div>
+
+                    <div class="options">
+                    <img  class="options-img" src="img/menu3.jpg" alt="image"><br>
+                    <h6 class="product">Choco Butter</h6>
+                    <p id="desc">Melty choco chip in butter cookies</p>
+                    <p class="price">RM 5.00</p>
+                    <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+                    <button type="submit" style="font-size:24px">
+                    <i class="fa fa-shopping-cart"></i>
+                    </button><span>
+                    </div>
+
+                    <div class="options">
+                    <img  class="options-img" src="img/menu4.jpg" alt="image"><br>
+                    <h6 class="product">Raisin Cookies</h6>
+                    <p id="desc">Choosen mixed raisin toppings</p>
+                    <p class="price">RM 5.00</p>
+                    <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+                    <button type="submit" style="font-size:24px">
+                    <i class="fa fa-shopping-cart"></i>
+                    </button><span>
+                    </div>
+
+                    <div class="options">
+                    <img class="options-img" src="img/4cookies.png" alt="image"><br>
+                    <h6 class="product">Crispy Baked</h6>
+                    <p id="desc">Crunchy taste in a cookies</p>
+                    <p class="price">RM 5.00</p>
+                    <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+                    <button type="submit" style="font-size:24px">
+                    <i class="fa fa-shopping-cart"></i>
+                    </button><span>
+                    </div>
+                </div>
+          </div>
+        </div>
+
+
+            </div>
+
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              }
+            </script>
+
+        </body>
+  </html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo.png">
+    <title>Special Packages</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style-special.css">
+  </head>
+  <body>
+
+    <!--NAVBAR STARTS-->
+    <div class="navbar">
+      <ul>
+      <li><a href="Homepage.html" class=home>Home</a><span></li>
+      <li><a href="Service.html" class = service>Service</a><span></li>
+      <li><a href="myCart.html" class = cart>My Cart</a><span></li>
+      <li><a href="contactUs.html" class = contact>Contact Us</a></li>
+      <li><div class="searchBar"> <input type="text" placeholder="Search for the menu"> </div></li>
+      <li><button type="submit" class="searchButton"><i class="fa fa-search"></i></button></li>
+      </ul>
+     </div>
+    <!--NAVBAR ENDS-->
+
+     <!--PICTURE HEADER-->
+     <div class="Header">
+       <div class="slideshow-container">
+       <div class="mySlides fade">
+
+         <img src="img/head1.jpg" style="width:100%">
+         <div class="text"></div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="img/head2.jpg" style="width:100%">
+         <div class="text"></div>
+       </div>
+
+       <div class="mySlides fade">
+         <img src="img/head3.jpg" style="width:100%">
+         <div class="text"></div>
+       </div>
+
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+       </div>
+       <br>
+     <!--PICTURE HEADER-->
+
+
+  <div class="hampersdesc">
+    <h2>Special Packages & Hampers</h2>
+    <p>Show your love and appreciation through our premium hampers
+    that reflect excellent craftsmanship and lavish artistry. Heavenly
+    Treats has meticulously assorted the most scrumptious goodies to
+    sweeten up your moments and bring festive cheer to your loved ones' day. however it may be confusing for you  </p>
+  </div>
+
+    <div class="imagecol2">
+      <div id="left">
+        <img src="img/lonHamper.jpg" alt="hamper7" class="lonHamper"><br>
+        <img src="img/hamper2.jpg" alt="hamper2" class="smaHamper">
+        <img src="img/hamper3.jpg" alt="hamper3" class="smaHamper">
+        <img src="img/hamper4.jpg" alt="hamper4" class="smaHamper">
+      </div>
+      <div id="right">
+        <img src="img/hamper8.png" alt="hamper8" class="bigHamper">
+      </div>
+    </div>
+
+<!--
+    <div class="pagenav">
+      <button type="button" name="button">Previous</button><span>
+      <button type="button" name="button">1</button><span>
+      <button type="button" name="button">2</button><span>
+      <button type="button" name="button">3</button><span>
+      <button type="button" name="button">Next</button><span>
+    </div>
+-->
+
+    <div class="options">
+      <div class="container">
+        <img src="img/hamper5.png" alt="hamper5" class="lisHamper"><br>
+        <div id="h4"><h4>PACKAGE 1</h4></div>
+        <p class="textdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed nunc eu sem tempor efficitur quis a sem. Integer vehicula interdum lacus.
+          Vestibulum tristique porttitor leo at tristique.</p><br>
+        <p class="price">RM 10.00</p>
+        <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+        <button type="submit" style="font-size:24px">
+          <i class="fa fa-shopping-cart"></i>
+        </button><span>
+      </div>
+
+      <div class="container">
+        <img src="img/hamper6.png" alt="hamper6" class="lisHamper"><br>
+        <div id="h4"><h4>PACKAGE 2</h4></div>
+        <p class="textdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed nunc eu sem tempor efficitur quis a sem. Integer vehicula interdum lacus.
+          Vestibulum tristique porttitor leo at tristique.</p><br>
+        <p class="price">RM 10.00</p>
+        <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+        <button type="submit" style="font-size:24px">
+          <i class="fa fa-shopping-cart"></i>
+        </button><span>
+
+      </div>
+
+      <div class="container">
+        <img src="img/hamper7.png" alt="hamper7" class="lisHamper"><br>
+        <div id="h4"><h4>PACKAGE 3</h4></div>
+        <p class="textdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed nunc eu sem tempor efficitur quis a sem. Integer vehicula interdum lacus.
+          Vestibulum tristique porttitor leo at tristique.</p><br>
+        <p class="price">RM 10.00</p>
+        <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+        <button type="submit" style="font-size:24px">
+          <i class="fa fa-shopping-cart"></i>
+        </button><span>
+      </div>
+
+      <div class="container">
+        <img src="img/hamper8.png" alt="hamper8" class="lisHamper"><br>
+        <div id="h4"><h4>PACKAGE 4</h4></div>
+        <p class="textdesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed nunc eu sem tempor efficitur quis a sem. Integer vehicula interdum lacus.
+          Vestibulum tristique porttitor leo at tristique.</p><br>
+        <p class="price">RM 10.00</p>
+        <input type="number" id="quantity" name="quantity" min="0" max="10" placeholder="0">
+        <button type="submit" style="font-size:24px">
+          <i class="fa fa-shopping-cart"></i>
+        </button><span>
+      </div>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      }
+    </script>
+
+  </body>
+</html>

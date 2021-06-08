@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo.png">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style-contact.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+      <li><a href="Homepage.html" class=home>Home</a><span></li>
+      <li><a href="Service.html" class = service>Service</a><span></li>
+      <li><a href="myCart.html" class = cart>My Cart</a><span></li>
+      <li><a href="contactUs.html" class = contact>Contact Us</a></li>
+      <li><div class="searchBar"> <input type="text" placeholder="Search for the menu"> </div></li>
+      <li><button type="submit" class="searchButton"><i class="fa fa-search"></i></button></li>
+      </ul>
+     </div>
+     <br>
+
+     <div class="title-custom"><h1>Contact Us</h1></div>
+
+     <div class="lineup">
+
+       <div class="container-left">
+         <div class="customerForm">
+           <form name="myForm" id="myForm">
+             <label>Your name*</label><br>
+                <div class="listName">
+                  <input type="text" name="fName" placeholder="First Name" class="fName" id="fName"><span>
+                  <input type="text" name="lName" placeholder="Last Name" class="lName" id="lName"><br><br>
+                </div>
+
+               <label>Email address*</label><br>
+               <input type="text" name="email" placeholder="e.g. example@email.com" class="identification" id="email"><br><br>
+
+               <label>Phone number</label><br>
+               <input type="text" name="phone"  placeholder="e.g. +6010-1234567" class="identification" id="phone"><br><br>
+                 <label for="">Are you an existing customer?</label><br>
+                 <input type="radio" name="existing" value="yesexisting">Yes
+                 <input type="radio" name="existing" value="noexisting">No<br><br>
+
+               <label>Your requirement(s)*</label>
+               <textarea name="message" class="message" id="message"></textarea><br>
+               <button type="submit" name="submit" class="button1" onclick="validation()">Submit</button>
+             </form>
+         </div>
+         </div>
+
+         <div class="container-right">
+            <div class="container2">
+             <p class="title">Or give us a call right away!</p>
+             <i class="fa fa-phone" style="font-size:24px" id="phone1">+603-4567 890</i><br>
+             <i class="fa fa-phone" style="font-size:24px" id="phone2">+603-8907 654</i>
+            </div>
+
+            <div class="container3">
+             <p class="title">Visit our store:</p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.054332091666!2d101.04979811464216!3d4.584269243932856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31caeb82b7beb519%3A0x8409e62f01e90264!2sSugee&#39;S%20Heavenly%20Treats!5e0!3m2!1sen!2smy!4v1622270773660!5m2!1sen!2smy" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             <div class="desc"><p>15, Persiaran Desa Rishah 3, Taman Desa Rishah, 30100 Ipoh, Perak</p></div>
+            </div>
+
+            <div class="container4">
+             <p class="title">Follow us on social media:</p>
+
+             <i class="fa fa-facebook" style="font-size:24px" id="facebook"></i>
+             <a href="https://www.facebook.com/">Heavenly Treats</a>
+
+             <i class="fa fa-twitter" style="font-size:24px" id="twitter"></i>
+             <a href="https://www.twitter.com/">@Heavenly_Treats</a>
+             <br><br>
+
+             <i class="fa fa-instagram" style="font-size:24px" id="instagram"></i>
+             <a href="https://www.facebook.com/">heavenly_treats</a>
+
+
+             <i class="fa fa-youtube" style="font-size:24px" id="youtube"></i>
+             <a href="https://www.facebook.com/">Heavenly Treats</a>
+           </div>
+         </div>
+
+     </div>
+
+     <script>
+
+     $(function validation() {
+       $("form[name='myForm']").validate({
+         errorClass: "my-error-class",
+         validClass: "my-valid-class",
+         rules:{
+           fName: "required",
+           lName: "required",
+           email: {
+             required:true,
+             email: true
+           },
+           phone: {
+             required: true,
+             number: true,
+           },
+           existing: "required",
+           message: "required"
+         },
+
+         messages:{
+           fName: "Please enter your first name",
+           lName: "Please enter your last name",
+           email: {
+             required: "Please enter a valid email",
+             email: "Your email is invalid"
+           },
+           phone: {
+             required:"Please enter your phone number",
+             number: "Your phone number is invalid"
+           },
+           message: "Please enter your requirement(s)"
+         },
+
+
+         submitHandler:function(myForm) {
+           alert("Thank you for filling up the form!");
+           form.submit();
+         }
+       });
+     });
+
+     </script>
+  </body>
+</html>

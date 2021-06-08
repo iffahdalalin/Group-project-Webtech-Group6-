@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo.png">
+    <title>Custom Cookies</title>
+    <link rel="stylesheet" href="style-customizingCookies.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <!--NAVBAR STARTS-->
+    <div class="navbar">
+      <ul>
+      <li><a href="Homepage.html" class=home>Home</a><span></li>
+      <li><a href="Service.html" class = service>Service</a><span></li>
+      <li><a href="myCart.html" class = cart>My Cart</a><span></li>
+      <li><a href="contactUs.html" class = contact>Contact Us</a></li>
+      <li><div class="searchBar"> <input type="text" placeholder="Search for the menu"> </div></li>
+      <li><button type="submit" class="searchButton"><i class="fa fa-search"></i></button></li>
+      </ul>
+     </div>
+    <!--NAVBAR ENDS-->
+
+    <h1 class="title1">Bored with the ordinary cookies? Create your own!</h1><br>
+    <h4 class="title2">Pour your own creativity into your cookies and be your own baker!!</h4><br>
+
+     <div class="amount">
+         <button class="options"><img src="img/4cookies.png"</button>
+         <p class="text-options">4 cookies per package</p>
+
+         <button class="options"><img src="img/8cookies.png"</button>
+         <p class="text-options">8 cookies per package</p>
+
+         <button class="options"><img src="img/12cookies.png"</button>
+         <p class="text-options">12 cookies per package</p>
+     </div>
+
+     <h1 id="flip1" class="head-options">Choose Your Dough :</h1>
+     <div id="panel1" class="dough">
+       <button class="options"><p class="text-options">Butter</p></button>
+
+       <button class="options"><p class="text-options">Choco</p></button>
+
+       <button class="options"><p class="text-options">Mix</p></button>
+     </div>
+
+     <h1 id="flip2" class="head-options">Choose Your Icing :</h1>
+     <div id="panel2" class="icing">
+       <button class="options"><p class="text-options">Chocolate</p></button>
+
+       <button class="options"><p class="text-options">Sugar</p></button>
+
+       <button class="options"><p class="text-options">Strawberry</p></button>
+     </div>
+
+     <h1 id="flip3" class="head-options">Choose Your Topping :</h1>
+     <div id="panel3" class="topping">
+       <button class="options"><p class="text-options">Chocochip</p></button>
+
+       <button class="options"><p class="text-options">Sparkle</p></button>
+
+       <button class="options"><p class="text-options">Nuts</p></button>
+     </div>
+     <br>
+     <div class="row-button">
+       <button class="order" type="submit" name="button" onclick="submit()">Order</button>
+     </div>
+
+
+
+     <script type="text/javascript">
+
+     $(this).hide();
+     $(document).ready(function(){
+       $("#flip1").click(function(){
+         $("#panel1").slideToggle("slow");
+       });
+     });
+
+     $(document).ready(function(){
+       $("#flip2").click(function(){
+         $("#panel2").slideToggle("slow");
+       });
+     });
+
+     $(document).ready(function(){
+       $("#flip3").click(function(){
+         $("#panel3").slideToggle("slow");
+       });
+     });
+
+          function submit() {
+            alert("Added to cart!");
+          }
+     </script>
+     </script>
+    </body>
+</html>
