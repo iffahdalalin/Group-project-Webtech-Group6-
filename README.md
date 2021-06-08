@@ -44,7 +44,7 @@ Two of the team members prepared 4 web pages for the html codes and other two me
 ### USE OF THIRD PARTY RESOURCES
 
 | Syntax      | Description | Test Text     | Test Text     |
-| :---        |    :----:   |          ---: |               |
+| :---        |    :---   |            ---: |          ---: |
 | Header      | Title       | Here's this   |               |
 | Paragraph   | Text        | And more      |               |
 
