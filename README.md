@@ -35,11 +35,17 @@ Two of the team members prepared 4 web pages for the html codes and other two me
 
 #### **Hafizh Rafi Taufiqul (1927529)**
 - CSS : Special Package, Add-ons Page, My-Cart Page, and Contact-us page
-- 
+
 #### **Ajwa Raudha binti Shamsool (1915460)**
 - Pages: Custom Cookies, Special Packages, Add-ons and Contact Us
 - Web elements: Search and cart icons, Google Maps embed, social media icons
 - Added pictures of some of the products
 
 ### USE OF THIRD PARTY RESOURCES
+
+| Syntax      | Description | Test Text     | Test Text     |
+| :---        |    :----:   |          ---: |               |
+| Header      | Title       | Here's this   |               |
+| Paragraph   | Text        | And more      |               |
+
 ### REFERENCES
