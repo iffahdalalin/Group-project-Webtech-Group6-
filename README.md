@@ -46,7 +46,7 @@ Two of the team members prepared 4 web pages for the html codes and other two me
 ### USE OF THIRD PARTY RESOURCES
 
 | Web elements      | Name         | Use of third party resources and modifications (if any)                                           | Modifications (if any)     |
-| :---                             |       :---   |                                                                               ---: |                       ---: |
+| :---                             |       :---   | :---                                                                               | :---                       |
 | Search icon, cart icon           | Title        | https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css |                            |
 | Toggle function                  | Text         | https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js                   |                            |
 | Form validation                  | Text         |jquery.validate.min.js                                                              |                            |
