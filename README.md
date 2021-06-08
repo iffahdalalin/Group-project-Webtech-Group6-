@@ -22,6 +22,11 @@ The last page, Contact Us, will display a feedback form in which users will have
 
 ### GROUP CONTRIBUTIONS
 
+| NAME      | CONTRIBUTIONS |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
 
 ### USE OF THIRD PARTY RESOURCES
 ### REFERENCES
