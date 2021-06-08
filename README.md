@@ -6,7 +6,7 @@
 - **Hafizh Rafi Taufiqul (1927529)**
 - **Ajwa Raudha binti Shamsool (1915460)**
 
-### Project Description
+### PROJECT DESCRIPTION
 
 Heavenly Treats is a baking store that will be selling nutritious homemade cookies that will haunt people’s taste and engage customers into repeating their orders. The difference between our shop and others is the quality of the nutrition itself. We will be providing numerous services that will give a lot of choices for customers to choose from.
 
@@ -16,7 +16,9 @@ The next part after the homepage is the Service Navigation page. It will be the 
 
 The last page, Contact Us, will display a feedback form in which users will have to fill in their details to submit their messages. The store’s contact details, a Google Maps embed of the store location and social media links will also be displayed on the page.
 
-### Project Sitemap
-### Group Contributions
-### Use of third party resources
-### References
+### PROJECT SITEMAP
+
+![Group 6 Project Part 2 Webtech!](/Downloads/Group 6 Project Part 2 Webtech.png "Group 6 Project Part 2 Webtech")
+### GROUP CONTRIBUTIONS
+### USE OF THIRD PARTY RESOURCES
+### REFERENCES
