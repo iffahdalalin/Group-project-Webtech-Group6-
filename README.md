@@ -45,9 +45,12 @@ Two of the team members prepared 4 web pages for the html codes and other two me
 
 ### USE OF THIRD PARTY RESOURCES
 
-| Web elements      | Name      | Use of third party resources and modifications (if any)    | Modifications (if any)     |
-| :---              |    :---   |                                                       ---: |                       ---: |
-| Header            | Title     | Here's this                                                |                            |
-| Paragraph         | Text      | And more                                                   |                            |
+| Web elements      | Name         | Use of third party resources and modifications (if any)    | Modifications (if any)     |
+| :---              |       :---   |                                                       ---: |                       ---: |
+| Search icon, cart icon           | Title        | Here's this                                 |                            |
+| Toggle function                  | Text         | And more                                    |                            |
+| Form validation                  | Text         | And more                                    |                            |
+| Google Maps Embed                | Text         | And more                                    |                            |
+| Web Color Palette                | Text         | And more                                    |                            |
 
 ### REFERENCES
