@@ -18,7 +18,7 @@ The last page, Contact Us, will display a feedback form in which users will have
 
 ### PROJECT SITEMAP
 
-![Group 6 Project Part 2 Webtech!](/Downloads/Group 6 Project Part 2 Webtech.png "Group 6 Project Part 2 Webtech")
+![alt text](https://drive.google.com/file/d/1Dhi0aEFiFe0EAxC5BUrm0akbVf06zok3/view?usp=sharing)
 ### GROUP CONTRIBUTIONS
 ### USE OF THIRD PARTY RESOURCES
 ### REFERENCES
