@@ -24,9 +24,7 @@ The last page, Contact Us, will display a feedback form in which users will have
 
 | NAME      | CONTRIBUTIONS |
 | ----------- | ----------- |
-| 'Iffah Dalalin binti Mohd Helme (1916304)| -Pages: Home page, MyCart, ReadyStockMenu and service.
--Web elements: Search and cart icons, Google Maps embed.
--Added picture in each of every pages|
+| 'Iffah Dalalin binti Mohd Helme (1916304)| -Pages: Home page, MyCart, ReadyStockMenu and service. -Web elements: Search and cart icons, Google Maps embed. -Added picture in each of every pages|
 | Paragraph   | Text        |
 
 
