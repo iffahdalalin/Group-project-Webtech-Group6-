@@ -50,7 +50,7 @@ Two of the team members prepared 4 web pages for the html codes and other two me
 | Search icon, cart icon           | Nisa Habiba  | https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css |                            |
 | Toggle function                  | Nisa Habiba  | https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js                   |                            |
 | Form validation                  | Nisa Habiba  |jquery.validate.min.js                                                              |                            |
-| Google Maps Embed                | Nisa Habiba  | https://www.google.com/maps/@-6.3689866,106.8768418,15z                            |                            |
+| Google Maps Embed                | Hafizh Rafi Taufiqul  | https://www.google.com/maps/@-6.3689866,106.8768418,15z                            |                            |
 | Web Color Palette                | Nisa Habiba  | https://colorhunt.co/palette/281694                                                |                            |
 
 ### REFERENCES
