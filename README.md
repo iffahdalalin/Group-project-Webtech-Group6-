@@ -54,3 +54,5 @@ Two of the team members prepared 4 web pages for the html codes and other two me
 | Web Color Palette                | Nisa Habiba                                      | https://colorhunt.co/palette/281694                                                |    
 
 ### REFERENCES
+1. W3school
+-[link](https://www.w3schools.com/css/)
